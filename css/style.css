@@ -70,27 +70,27 @@ img{
 }
 
 .logo_footer{
-    display: inline-block;
-    margin-bottom: 16px;
     color: #f4f4fd;
 }
 
+
 /* #region HEADER */
 
-header .container{
+.header .container{
     display: flex;
     padding: 24px 0;
     align-items: center;
     justify-content: space-between;
 }
 
-header{
-    border-bottom: 1px solid #e7e9fc
+.header{
+    border-bottom: 1px solid #e7e9fc;
 }
-
+/* /////////////// */
 .header-nav{
     display: flex;
     align-items: center;
+    padding: 0 15px;
 }
 
 .nav-list{
@@ -141,7 +141,7 @@ header{
 
 /* #region ORDER */
 
-.order-container{
+.order-section .container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -192,11 +192,13 @@ header{
 
 /* #region FEATURES */
 
+.features-section{
+    padding: 120px 0;
+}
 
 .features-list{
     display: flex;
     align-items: center;
-    padding: 120px 0;
     gap: 24px;
 }
 
@@ -238,12 +240,12 @@ header{
 .list-item-container{
     padding: 32px 0;
     text-align: center;
+    width: calc((100% - 72px) / 4); 
 }
 
 .team-list{
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4); 
 }
 
 .team-list-item{
@@ -275,6 +277,7 @@ header{
 
 .portfolio-header{
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .portfolio-list{
@@ -322,6 +325,11 @@ header{
 
 footer {
     padding: 100px 0;
+}
+
+footer .logo{
+    display: inline-block;
+    margin-bottom: 16px
 }
 
 .footer-text{
