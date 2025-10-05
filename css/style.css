@@ -84,11 +84,15 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 15px;
+    padding: 0 15px;
 }
 
 .header{
     border-bottom: 1px solid #e7e9fc;
+}
+
+.header a{
+    padding: 24px 0;
 }
 
 .header-nav{
@@ -97,7 +101,6 @@ img{
 }
 
 .nav-list{
-    /* padding: 24px 0; */
     display: flex;
     gap: 40px;
 }
